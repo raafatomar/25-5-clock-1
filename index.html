@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>25+5 clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="all-content">
+        <div class="header"><h1>25+5 Clock</h1></div>
+        <div class="break-session">
+            <div class="break" id="break-label">
+                <h2>break Length</h2>
+                <div class="break-length">
+                    <button id="break-decrement">-</button>
+                    <h1 id="break-length">5</h1>
+                    <button id="break-increment">+</button>
+                </div>
+            </div>
+            <div class="session" id="session-label">
+                <h2>Session Length</h2>
+                <div class="session-length">
+                    <button id="session-decrement">-</button>
+                    <h1 id="session-length">25</h1>
+                    <button id="session-increment">+</button>
+                </div>
+            </div>
+        </div>
+        <div class="time-left" id="timer-label">
+            <h2 id="title">Session</h2>
+            <h1 id="time-left"><span id="timer-min">25</span>:<span id="timer-sec">00</span></h1>
+        </div>
+        <div class="control">
+            <button id="play">Start</button>
+            <button id="pause">pause</button>
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
